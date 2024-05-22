@@ -1,4 +1,4 @@
-ent-CMGirder = балка
+ent-CMGirder = каркас
     .desc = { ent-Girder.desc }
-ent-CMGirderReinforced = усиленная балка
+ent-CMGirderReinforced = усиленный каркас
     .desc = { ent-CMGirder.desc }
