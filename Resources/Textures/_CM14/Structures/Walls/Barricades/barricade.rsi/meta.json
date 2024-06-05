@@ -81,6 +81,10 @@
     {
       "name": "sandbag_wire",
       "directions": 4
+    },
+    {
+      "name": "wooden",
+      "directions": 4
     }
   ]
 }
