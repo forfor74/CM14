@@ -32,6 +32,8 @@
         density: 1000
   - type: TimedDespawn
     lifetime: 1500
+  - type: Clickable
+  - type: Occluder
 
 - type: entity
   parent: CMFogWall

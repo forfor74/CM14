@@ -1,5 +1,5 @@
 chat-radio-marine-highcommand = Высшее командование КСМ США
-chat-radio-marine-common = Командивние мопрехов
+chat-radio-marine-common = Общий
 chat-radio-marine-command = Командование
 chat-radio-marine-medical = Медицина
 chat-radio-marine-engineer = Инженерное
