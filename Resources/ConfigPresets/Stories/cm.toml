@@ -2,23 +2,17 @@
 # Загружается перед настройками конфигурации, специфичными для сервера.
 
 [game]
-hostname = "📚 Space Stories - Dev 🔧"
-desc = ""
+hostname         = "📚 Space Stories - Colonial Marines 🌍 [TTS] [ЗБТ]"
+desc             = ""
 lobbyenabled     = true
-soft_max_players = 100
-map_pool = "CMDefaultMapPool"
+lobbyduration    = 180
+soft_max_players = 200
+map_pool         = "CMDefaultMapPool"
 
 [shuttle]
 auto_call_time = 0
-emergency = false
-preload_grids = false
-
-# [infolinks]
-# bug_report = "" Ссылка на дискорд
-# discord    = "" Ссылка на дискорд
-# patreon    = "" Ссылка на бусти
-# wiki       = "" Ссылка на википедию
-# appeal     = "" Ссылка на дискорд
+emergency      = false
+preload_grids  = false
 
 [ic]
 flavor_text = true
@@ -27,7 +21,7 @@ flavor_text = true
 maximum_width = 26
 
 [net]
-tickrate = 30
+tickrate        = 30
 max_connections = 1024
 
 [vote]
@@ -43,9 +37,9 @@ new_player_threshold = 600
 enabled = true
 
 [atmos]
-space_wind = false
+space_wind           = false
 monstermos_rip_tiles = false
-grid_impulse = false
+grid_impulse         = false
 
 # [server]
 # rules_file = "CM_Rules.txt"
