@@ -132,7 +132,7 @@
   longRange: false
 
 - type: radioChannel # Only used by Corporate Liason to hand out to bodyguards / command.
-  id: WY
+  id: WEYA
   name: chat-radio-WY
   keycode: "ю" #w in CM13
   frequency: 1487
