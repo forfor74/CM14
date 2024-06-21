@@ -22,6 +22,7 @@
     enabled: false
     radius: 4
     softness: 5
+    mask: /Textures/Effects/LightMasks/cone.png
     autoRot: true
   - type: HandheldLight
     addPrefix: true
