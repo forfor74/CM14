@@ -17,7 +17,6 @@
   - type: Clothing
     slots:
     - ears
-    sprite: _CM14/Objects/Clothing/headsets.rsi
   - type: Sprite
     sprite: _CM14/Objects/Clothing/headsets.rsi
     state: generic_headset
@@ -71,7 +70,7 @@
   parent: CMHeadset
   id: CMHeadsetRequisition
   name: supply radio headset
-  description: Used by the lowly Cargo Technicians of the USCM, light weight and portable.
+  description: Used by the lowly Cargo Technicians of the Marine, light weight and portable.
   components:
   - type: Sprite
     state: req_headset
@@ -251,7 +250,7 @@
       key_slots:
       - CMEncryptionKeyAlpha
       - CMEncryptionKeyCommon
-      - CMEncryptionKeyCommand
+      - CMEncryptionKeySquadLeader
 
 - type: entity
   parent: CMHeadsetAlpha
@@ -316,7 +315,7 @@
       key_slots:
       - CMEncryptionKeyBravo
       - CMEncryptionKeyCommon
-      - CMEncryptionKeyCommand
+      - CMEncryptionKeySquadLeader
 
 - type: entity
   parent: CMHeadsetBravo
@@ -381,7 +380,7 @@
       key_slots:
       - CMEncryptionKeyCharlie
       - CMEncryptionKeyCommon
-      - CMEncryptionKeyCommand
+      - CMEncryptionKeySquadLeader
 
 - type: entity
   parent: CMHeadsetCharlie
@@ -446,7 +445,7 @@
       key_slots:
       - CMEncryptionKeyDelta
       - CMEncryptionKeyCommon
-      - CMEncryptionKeyCommand
+      - CMEncryptionKeySquadLeader
 
 - type: entity
   parent: CMHeadsetDelta
@@ -511,7 +510,7 @@
       key_slots:
       - CMEncryptionKeyEcho
       - CMEncryptionKeyCommon
-      - CMEncryptionKeyCommand
+      - CMEncryptionKeySquadLeader
 
 - type: entity
   parent: CMHeadsetEcho
@@ -576,7 +575,7 @@
       key_slots:
       - CMEncryptionKeyFoxtrot
       - CMEncryptionKeyCommon
-      - CMEncryptionKeyCommand
+      - CMEncryptionKeySquadLeader
 
 - type: entity
   parent: CMHeadsetFoxtrot

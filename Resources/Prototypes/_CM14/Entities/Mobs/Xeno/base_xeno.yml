@@ -167,6 +167,8 @@
   - type: WhitelistPickup
   - type: DropHeldOnIncapacitate
   - type: NightVision
+    alert: XenoNightVision
+    overlay: true
   - type: ParalyzeOnPullAttemptImmune
   - type: GhostTakeoverAvailable
   - type: GhostRole
