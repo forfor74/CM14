@@ -1,3 +1,4 @@
+cm-distress-signal-none = Раунд был завершён досрочно
 cm-distress-signal-majormarinevictory = [color=green]Крупная победа морпехов[/color]
     Все ксеноморфы были уничтожены
 cm-distress-signal-minormarinevictory = [color=green]Малая победа морпехов[/color]
