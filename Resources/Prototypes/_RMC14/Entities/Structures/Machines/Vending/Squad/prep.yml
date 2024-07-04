@@ -13,7 +13,7 @@
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/guns.rsi
   - type: CMAutomatedVendor
     sections:
-    - name: Primary firearms
+    - name: Основное огнестрельное оружие
       entries:
       - id: WeaponRifleM4SPR
         amount: 10
@@ -24,7 +24,7 @@
       - id: WeaponRifleM54C
         amount: 30
         recommended: true
-    - name: Primary ammunition
+    - name: Основные боеприпасы
       entries:
       - id: CMBoxShotgunFlechette
         amount: 4
@@ -38,7 +38,7 @@
         amount: 25
       - id: CMMagazineRifleM54C
         amount: 25
-    - name: Sidearms
+    - name: Вторичное огнестрельное оружие
       entries:
       - id: CMWeaponPistolM77
         amount: 25
@@ -48,7 +48,7 @@
         amount: 25
       #- id: WeaponFlareM82F
       #  amount: 10
-    - name: Sidearm ammunition
+    - name: Вторичные боеприпасы
       entries:
       - id: CMMagazinePistolM77AP
         amount: 25
@@ -56,15 +56,15 @@
 #        amount: 20
       - id: CMMagazinePistolM1984
         amount: 25
-    - name: Attachments
-      entries: [ ]
+    - name: Обвесы
+      entries:
       #- id: CMAttachmentFoldingStockM63
       #  amount: 10
       #- id: CMAttachmentFoldingStockM54C
       #  amount: 10
-      #- id: CMAttachmentRailFlashlight
-      #  amount: 25
-      #- id: CMAttachmentUnderbarrelFlashlightGrip
+      - id: CMAttachmentRailFlashlight
+        amount: 25
+      # - id: CMAttachmentUnderbarrelFlashlightGrip
       #  amount: 10
       #- id: CMAttachmentUnderslungGrenadeLauncher
       #  amount: 25
@@ -164,7 +164,7 @@
 #        amount: 2
 #      - id: Radio Telephone Backpack
 #        amount: 1
-    - name: Поясs
+    - name: Пояс
       entries:
       - id: CMBeltMarine
         amount: 15
@@ -183,14 +183,14 @@
 #      - id: M276 Pattern M82F Holster Rig
 #        amount: 5
       - id: CMBeltKnifeFilled
-        name: M276 Knife Rig (Full)
+        name: M276 ножевой пояс (полный)
         amount: 15
 #      - id: M276 G8-A General Utility Pouch
 #        amount: 15
     - name: Подсумки
       entries:
       - id: CMPouchBayonet
-        name: Bayonet Sheath (Full)
+        name: ножны со штыком (полные)
         amount: 15
       - id: CMPouchFirstAidSplintsGauzeOintment
         amount: 15
@@ -217,7 +217,7 @@
       - id: CMPouchExplosive
         amount: 1
       - id: CMPouchFirstResponder
-        name: First Responder Pouch (Empty)
+        name: подсумок первой помощи (пустой)
         amount: 2
       - id: CMPouchMagazinePistolLarge
         amount: 2
@@ -234,7 +234,7 @@
         amount: 10
 #      - id: Rebreather
 #        amount: 10
-    - name: Miscellaneous
+    - name: Разное
       entries: [ ]
 #      - id: Ballistic goggles
 #        amount: 10
@@ -260,7 +260,7 @@
 #        amount: 15
 #      - id: Bedroll
 #        amount: 20
-    - name: Optics
+    - name: Оптика
       entries: [ ]
 #      - id: Advanced Medical Optic (CORPSMAN ONLY)
 #        amount: 4
@@ -281,7 +281,7 @@
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_ammo.rsi
   - type: CMAutomatedVendor
     sections:
-    - name: Броня-Piercing Ammunition
+    - name: Бронебойные боеприпасы
       entries:
       - id: CMMagazineRifleM4SPRAP
         amount: 3
@@ -289,13 +289,13 @@
         amount: 3
       - id: CMMagazineRifleM54CAP
         amount: 3
-    - name: Extended Ammunition
+    - name: Расширенные боеприпасы
       entries:
       - id: CMMagazineSMGM63Ext
         amount: 1
       - id: CMMagazineRifleM54CExt
         amount: 1
-    - name: Special Ammunition
+    - name: Специальные боеприпасы
       entries: [ ]
       #- id: CMDrumSmartGunM56
       #  amount: 1
@@ -303,7 +303,7 @@
       #  amount: 2
       #- id: CMSpeedLoaderM44Marksman
       #  amount: 2
-    - name: Restricted Firearm Ammunition
+    - name: Ограниченные боеприпасы к огнестрельному оружию
       entries:
       - id: CMMagazinePistolMK80
         amount: 5
@@ -338,13 +338,13 @@
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/attachments.rsi
   - type: CMAutomatedVendor
     sections:
-    - name: Food
+    - name: Еда
       entries:
       - id: CMMRE
         amount: 5
       - id: CMBoxMRE
         amount: 1
-    - name: Tools
+    - name: Инструменты
       entries:
       - id: CMEntrenchingTool
         amount: 2
@@ -373,7 +373,7 @@
         amount: 10
 #      #- id: CMSignalFlarePackM89S
 #      #  amount: 1
-    - name: Miscellaneous
+    - name: Разное
       entries:
       #- id: CMEngineerKit
       #  amount: 1
@@ -410,7 +410,7 @@
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/attachments.rsi
   - type: CMAutomatedVendor
     sections: # TODO RMC14
-    - name: Barrel
+    - name: Ствол
       entries:
       - id: CMAttachmentExtendedBarrel
         amount: 3
@@ -418,7 +418,7 @@
         amount: 3
       - id: CMAttachmentSuppressor
         amount: 3
-    - name: Rail
+    - name: Рельса
       entries:
       - id: CMAttachmentB8SmartScope
         amount: 2
