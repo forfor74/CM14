@@ -163,13 +163,15 @@
       - id: RMCBinoculars
         points: 5
     #    CMRangeFinder: 10P
-    #    CMLaserDesignator: 15P
-    - name: Оптика для шлема
+      - id: RMCLaserDesignator
+        points: 15
+    - name: Helmet Optics
       entries: [ ]
     #    CMWeldingVisor: 5P
-    - name: Памфлеты
-      entries: [ ]
-    #    CMPamphletJTAC: 15P
+    - name: Pamphlets
+      entries:
+      - id: CMPamphletJTAC
+        points: 15
     #    CMPamphletEngineering: 15P
     - name: Радиоключи
       entries:
@@ -278,8 +280,8 @@
       - id: CMWebbingBlack
       #- id: CMShoulderHolster
       - id: CMWebbing
-    #- id: CMDropPouch
-    - name: Маски
+      - id: CMWebbingPouch
+    - name: Mask
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskGas
