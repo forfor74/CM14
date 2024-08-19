@@ -1125,7 +1125,6 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
         if (Timing.CurTime >= component.NextCheck)
         {
             component.NextCheck = Timing.CurTime + component.CheckEvery;
-            BioscanAnnounce(); // Stories-Bioscan
             CheckRoundShouldEnd();
         }
 
