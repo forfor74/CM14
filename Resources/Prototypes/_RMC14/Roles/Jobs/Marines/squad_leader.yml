@@ -81,6 +81,7 @@
   components:
   - type: SquadSpawner
     squad: SquadAlpha
+    role: CMSquadLeader
 
 - type: entity
   parent: CMSpawnPointSquadLeader
@@ -89,6 +90,7 @@
   components:
   - type: SquadSpawner
     squad: SquadBravo
+    role: CMSquadLeader
 
 - type: entity
   parent: CMSpawnPointSquadLeader
@@ -97,6 +99,7 @@
   components:
   - type: SquadSpawner
     squad: SquadCharlie
+    role: CMSquadLeader
 
 - type: entity
   parent: CMSpawnPointSquadLeader
@@ -105,4 +108,5 @@
   components:
   - type: SquadSpawner
     squad: SquadDelta
+    role: CMSquadLeader
 

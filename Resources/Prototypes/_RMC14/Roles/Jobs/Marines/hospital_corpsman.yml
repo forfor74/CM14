@@ -76,6 +76,7 @@
   components:
   - type: SquadSpawner
     squad: SquadAlpha
+    role: CMHospitalCorpsman
 
 - type: entity
   parent: CMSpawnPointHospitalCorpsman
@@ -84,6 +85,7 @@
   components:
   - type: SquadSpawner
     squad: SquadBravo
+    role: CMHospitalCorpsman
 
 - type: entity
   parent: CMSpawnPointHospitalCorpsman
@@ -92,6 +94,7 @@
   components:
   - type: SquadSpawner
     squad: SquadCharlie
+    role: CMHospitalCorpsman
 
 - type: entity
   parent: CMSpawnPointHospitalCorpsman
@@ -100,5 +103,6 @@
   components:
   - type: SquadSpawner
     squad: SquadDelta
+    role: CMHospitalCorpsman
 
 

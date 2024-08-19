@@ -74,6 +74,7 @@
   components:
   - type: SquadSpawner
     squad: SquadAlpha
+    role: CMCombatTech
 
 - type: entity
   parent: CMSpawnPointCombatTech
@@ -82,6 +83,7 @@
   components:
   - type: SquadSpawner
     squad: SquadBravo
+    role: CMCombatTech
 
 - type: entity
   parent: CMSpawnPointCombatTech
@@ -90,6 +92,7 @@
   components:
   - type: SquadSpawner
     squad: SquadCharlie
+    role: CMCombatTech
 
 - type: entity
   parent: CMSpawnPointCombatTech
@@ -98,4 +101,5 @@
   components:
   - type: SquadSpawner
     squad: SquadDelta
+    role: CMCombatTech
 

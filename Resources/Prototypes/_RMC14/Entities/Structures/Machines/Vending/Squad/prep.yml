@@ -187,9 +187,9 @@
       - id: CMBeltKnifeFilled
         name: ножевая установка M276 (полная)
         amount: 15
-#      - id: M276 G8-A General Utility Pouch
-#        amount: 15
-    - name: подсумок
+      - id: RMCBeltUtilityGeneral
+        amount: 15
+    - name: Pouches
       entries:
       - id: RMCPouchBayonet
         name: Bayonet Sheath (Full)
