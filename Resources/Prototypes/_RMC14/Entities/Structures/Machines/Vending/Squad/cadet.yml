@@ -19,11 +19,11 @@
         recommended: true
     - name: Основные боеприпасы
       entries:
-      - id: CMBoxShotgunFlechette
+      - id: RMCBoxShotgunFlechette
         amount: 4
-      - id: CMBoxShotgunBuckshot
+      - id: RMCBoxShotgunBuckshot
         amount: 10
-      - id: CMBoxShotgunSlugs
+      - id: RMCBoxShotgunSlugs
         amount: 10
       - id: CMMagazineRifleM4SPR
         amount: 15
