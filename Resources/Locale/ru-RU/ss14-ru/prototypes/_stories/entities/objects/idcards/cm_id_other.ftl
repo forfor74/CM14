@@ -1,0 +1,15 @@
+ent-CMIDCardPMC = ID карта ЧВК
+    .suffix = Стрелок
+    .desc = { ent-CMIDCardBase.desc }
+ent-CMIDCardGunnerPMC = ID карта ЧВК
+    .suffix = Смартганнер
+    .desc = { ent-CMIDCardBase.desc }
+ent-CMIDCardMedicPMC = ID карта ЧВК
+    .suffix = Медик
+    .desc = { ent-CMIDCardBase.desc }
+ent-CMIDCardSniperPMC = ID карта ЧВК
+    .suffix = Снайпер
+    .desc = { ent-CMIDCardBase.desc }
+ent-CMIDCardOfficerPMC = ID карта ЧВК
+    .suffix = Лидер
+    .desc = { ent-CMIDCardBase.desc }

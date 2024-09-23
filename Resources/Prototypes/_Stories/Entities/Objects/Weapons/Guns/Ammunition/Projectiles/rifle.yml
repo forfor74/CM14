@@ -12,3 +12,27 @@
     amount: 20
   - type: IgniteOnCollide
     fireStacks: 1
+
+- type: entity
+  parent: BulletRifle10x24mm
+  id: BulletRifle10x24mmNSG
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 56
+  - type: CMArmorPiercing
+    amount: 5
+
+- type: entity
+  parent: BulletRifle10x24mm
+  id: BulletRifle10x24mmNSGAP
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 42
+  - type: CMArmorPiercing
+    amount: 40

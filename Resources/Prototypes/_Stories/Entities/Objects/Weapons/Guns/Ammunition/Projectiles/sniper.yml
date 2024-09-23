@@ -1,0 +1,12 @@
+- type: entity
+  parent: CMBulletSniper10x28mm
+  id: CMBulletSniper10x99mmAntiTank
+  name: bullet (10x99mm)
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 150
+  - type: CMArmorPiercing
+    amount: 50

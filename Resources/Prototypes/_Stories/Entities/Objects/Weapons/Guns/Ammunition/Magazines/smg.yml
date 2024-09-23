@@ -1,0 +1,33 @@
+#FP9000AP
+- type: entity
+  parent: BaseMagazineRifle
+  id: CMMagazineFP9000AP
+  name: "FP9000 magazine (5.7x28mm)"
+  components:
+  - type: Tag
+    tags:
+    - CMMagazineSmg
+    - CMMagazineFP9000AP
+  - type: BallisticAmmoProvider
+    mayTransfer: True
+    whitelist:
+      tags:
+      - CMCartridge5_7x28mmAP
+    proto: CMCartridge5_7x28mmAP
+    capacity: 50
+  - type: Sprite
+    sprite: _Stories/Objects/Weapons/Guns/Ammunition/Magazines/fp9000.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+    zeroOnlyOnEmpty: true
+  - type: Appearance
+
+- type: Tag
+  id: CMMagazineFP9000AP

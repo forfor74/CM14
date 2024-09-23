@@ -1,0 +1,28 @@
+- type: entity
+  parent: CMSatchelMarine
+  id: CMSatchelMarinePMCStandart
+  suffix: Filled, PMC, Standart
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMGrenadeFragOld
+    - id: RMCExplosiveBreachingCharge
+    - id: CMStunbaton
+    - id: CMCrowbar
+    - id: CMMagazineSMGM63AP
+    - id: CMMagazineSMGM63AP
+    - id: CMMagazineSMGM63AP
+
+- type: entity
+  parent: CMSatchelMarine
+  id: CMSatchelMarinePMCMedic
+  suffix: Filled, PMC, Medic
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMDefibrillator
+    - id: CMStunbaton
+    - id: CMCrowbar
+    - id: CMRollerBedSpawnFolded
+    - id: CMSurgicalLine
+    - id: CMHyposprayFilledTricord

@@ -1,0 +1,12 @@
+- type: entity
+  parent: CMWebbingBlack
+  id: CMWebbingBlackPMC
+  suffix: Filled, PMC
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMGauze10
+    - id: CMGauze10
+    - id: CMOintment10
+    - id: CMHealthAnalyzer
+    - id: CMFireExtinguisherPortable

@@ -1,0 +1,15 @@
+ent-CMMobHumanPMCStandart = стрелок ЧВК
+    .suffix = ЧВК, Стрелок
+    .desc = { ent-CMMobHuman.desc }
+ent-CMMobHumanPMCGunner = смартганнер ЧВК
+    .suffix = ЧВК, Смартганнер
+    .desc = { ent-CMMobHuman.desc }
+ent-CMMobHumanPMCMedic = медик ЧВК
+    .suffix = ЧВК, Медик
+    .desc = { ent-CMMobHuman.desc }
+ent-CMMobHumanPMCSniper = снайпер ЧВК
+    .suffix = ЧВК, Снайпер
+    .desc = { ent-CMMobHuman.desc }
+ent-CMMobHumanPMCOfficer = лидер ЧВК
+    .suffix = ЧВК, Лидер
+    .desc = { ent-CMMobHuman.desc }

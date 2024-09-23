@@ -1,0 +1,147 @@
+- type: entity
+  parent: CMMobHuman
+  id: CMMobHumanPMCStandart
+  name: PMC Standart
+  suffix: PMCRole, Standart
+  components:
+    - type: RandomHumanoidAppearance
+      randomizeName: true
+      hair: HairBald
+    - type: GhostTakeoverAvailable
+    - type: GhostRole
+      name: ghost-role-information-pmc-standard-name
+      description: ghost-role-information-pmc-standard-description
+      rules: ghost-role-information-nonantagonist-rules
+      raffle:
+        settings: default
+    - type: Loadout
+      prototypes: [ CMGearStandartPMC ]
+    - type: Skills
+      skills:
+        RMCSkillConstruction: 2 
+        RMCSkillFirearms: 2 
+        RMCSkillFireman: 2 
+        RMCSkillEndurance: 3 
+        RMCSkillEngineer: 2 
+        RMCSkillPolice: 2 
+
+- type: entity
+  parent: CMMobHuman
+  id: CMMobHumanPMCGunner
+  name: PMC Support Specialist
+  suffix: PMCRole, Gunner
+  components:
+    - type: RandomHumanoidAppearance
+      randomizeName: true
+      hair: HairBald
+    - type: GhostTakeoverAvailable
+    - type: GhostRole
+      name: ghost-role-information-pmc-gunner-name
+      description: ghost-role-information-pmc-standard-description
+      rules: ghost-role-information-nonantagonist-rules
+      raffle:
+        settings: default
+    - type: Loadout
+      prototypes: [ CMGearGunnerPMC ]
+    - type: Skills
+      skills:
+        RMCSkillConstruction: 2 
+        RMCSkillFirearms: 2 
+        RMCSkillFireman: 2 
+        RMCSkillEndurance: 3 
+        RMCSkillEngineer: 2 
+        RMCSkillPolice: 2
+        RMCSkillJtac: 1
+        RMCSkillSmartGun: 1
+
+- type: entity
+  parent: CMMobHuman
+  id: CMMobHumanPMCMedic
+  name: PMC Medical Specialist
+  suffix: PMCRole, Medic
+  components:
+    - type: RandomHumanoidAppearance
+      randomizeName: true
+      hair: HairBald
+    - type: GhostTakeoverAvailable
+    - type: GhostRole
+      name: ghost-role-information-pmc-medic-name
+      description: ghost-role-information-pmc-standard-description
+      rules: ghost-role-information-nonantagonist-rules
+      raffle:
+        settings: default
+    - type: Loadout
+      prototypes: [ CMGearMedicPMC ]
+    - type: Skills
+      skills:
+        RMCSkillConstruction: 2 
+        RMCSkillFirearms: 2 
+        RMCSkillFireman: 2 
+        RMCSkillEndurance: 3 
+        RMCSkillEngineer: 2 
+        RMCSkillPolice: 2
+        RMCSkillMedical: 2
+        RMCSkillSurgery: 1
+
+- type: entity
+  parent: CMMobHuman
+  id: CMMobHumanPMCSniper
+  name: PMC Sniper
+  suffix: PMCRole, Sniper
+  components:
+    - type: RandomHumanoidAppearance
+      randomizeName: true
+      hair: HairBald
+    - type: GhostTakeoverAvailable
+    - type: GhostRole
+      name: ghost-role-information-pmc-sniper-name
+      description: ghost-role-information-pmc-standard-description
+      rules: ghost-role-information-nonantagonist-rules
+      raffle:
+        settings: default
+    - type: Loadout
+      prototypes: [ CMGearSniperPMC ]
+    - type: Skills
+      skills:
+        RMCSkillConstruction: 2 
+        RMCSkillFirearms: 2 
+        RMCSkillFireman: 2 
+        RMCSkillEndurance: 3 
+        RMCSkillEngineer: 2 
+        RMCSkillPolice: 2
+        RMCSkillSmartGun: 1
+        RMCSkillCqc: 1
+        RMCSkillJtac: 1
+
+- type: entity
+  parent: CMMobHuman
+  id: CMMobHumanPMCOfficer
+  name: PMC Team Leader
+  suffix: PMCRole, Officer
+  components:
+    - type: RandomHumanoidAppearance
+      randomizeName: true
+      hair: HairBald
+    - type: GhostTakeoverAvailable
+    - type: GhostRole
+      name: ghost-role-information-pmc-leader-name
+      description: ghost-role-information-pmc-standard-description
+      rules: ghost-role-information-nonantagonist-rules
+      raffle:
+        settings: default
+    - type: Loadout
+      prototypes: [ CMGearOfficerPMC ]
+    - type: Skills
+      skills:
+        RMCSkillConstruction: 2 
+        RMCSkillFirearms: 2 
+        RMCSkillFireman: 2 
+        RMCSkillEndurance: 3 
+        RMCSkillEngineer: 2 
+        RMCSkillPolice: 2
+        RMCSkillMedical: 1
+        RMCSkillCqc: 1
+        RMCSkillJtac: 2
+        RMCSkillLeadership: 1
+    - type: MarineOrders
+    - type: SquadLeader

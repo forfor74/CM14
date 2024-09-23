@@ -1,0 +1,29 @@
+- type: entity
+  parent: CMMagazineSniperM96S
+  id: CMMagazineSniperM42CAntiTank
+  name: "M42C Marksman Magazine (10x99mm)"
+  description: A magazine of 10x99mm anti-tank rounds.
+  components:
+  - type: Tag
+    tags:
+    - CMMagazineSniper
+    - CMMagazineSniperM42C
+  - type: BallisticAmmoProvider
+    mayTransfer: True
+    whitelist:
+      tags:
+      - CMCartridgeSniper10x99mm
+    proto: CMCartridgeSniper10x99mmAntiTank
+    capacity: 6
+  - type: Sprite
+    sprite: _Stories/Objects/Weapons/Guns/Ammunition/Magazines/m42c.rsi
+    layers:
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: band_e
+      color: "#FFFF00"
+
+- type: Tag
+  id: CMMagazineSniperM42C
