@@ -346,6 +346,10 @@
     containers:
       light_bulb: !type:ContainerSlot
   - type: ApcPowerReceiver
+  - type: RMCPowerReceiver
+    idleLoad: 1
+    activeLoad: 40
+    channel: Lighting
   - type: DeviceLinkSink
     ports:
     - On

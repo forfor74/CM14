@@ -67,16 +67,6 @@ namespace Content.Server._RMC14.Rules;
 
 public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignalRuleComponent>
 {
-    private int xenosCount { get; set; }
-    private int xenosOnShipCount { get; set; }
-    private int xenosOnPlanetCount { get; set; }
-    private int xenosAliveCount { get; set; }
-    private int marinesCount { get; set; }
-    private int marinesOnShipCount { get; set; }
-    private int marinesOnPlanetCount { get; set; }
-    private int marinesAliveCount { get; set; }
-
-    [Dependency] private readonly AtmosphereSystem _atmosphere = default!;
     [Dependency] private readonly AudioSystem _audio = default!;
     [Dependency] private readonly IBanManager _bans = default!;
     [Dependency] private readonly IChatManager _chatManager = default!;
@@ -1104,36 +1094,8 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
         GameRuleComponent gameRule,
         ref RoundEndTextAppendEvent args)
     {
-        xenosCount = 0; // Stories-Statistic-Start
-        xenosAliveCount = 0;
-        var xenos = EntityQueryEnumerator<XenoComponent, MobStateComponent>();
-        while (xenos.MoveNext(out var xenoId, out var xenoComp, out var mobState))
-        {
-            if (xenoComp.Tier == 0)
-                continue;
-
-            xenosCount++;
-
-            if (_mobState.IsAlive(xenoId, mobState))
-                xenosAliveCount++;
-        }
-
-        marinesCount = 0;
-        marinesAliveCount = 0;
-        var marines = EntityQueryEnumerator<MarineComponent, MobStateComponent>();
-        while (marines.MoveNext(out var marineId, out _, out var mobState))
-        {
-            marinesCount++;
-
-            if (_mobState.IsAlive(marineId, mobState))
-            {
-                marinesAliveCount++;
-            }
-        }
-
-        base.AppendRoundEndText(uid, component, gameRule, ref args); // Stories-Statistic-End
+        base.AppendRoundEndText(uid, component, gameRule, ref args);
         args.AddLine($"{Loc.GetString($"cm-distress-signal-{component.Result.ToString().ToLower()}")}");
-        args.AddLine($"{Loc.GetString("cm-distress-signal-statistic", ("marines", marinesCount), ("marinesAlive", marinesAliveCount), ("xenos", xenosCount), ("xenosAlive", xenosAliveCount)) }");  // Stories-Statistic
     }
 
     protected override void ActiveTick(EntityUid uid, CMDistressSignalRuleComponent component, GameRuleComponent gameRule, float frameTime)
