@@ -22,11 +22,10 @@ public sealed class VoiceMaskBoundUserInterface : BoundUserInterface
 
         _window = this.CreateWindow<VoiceMaskNameChangeWindow>();
         _window.ReloadVerbs(_protomanager);
+        _window.AddVerbs();
 
         _window.OnNameChange += OnNameSelected;
         _window.OnVerbChange += verb => SendMessage(new VoiceMaskChangeVerbMessage(verb));
-        _window.OnVoiceChange += voice => SendMessage(new VoiceMaskChangeVoiceMessage(voice)); // Stories-TTS
-        _window.OnClose += Close;
     }
 
     private void OnNameSelected(string name)
@@ -41,7 +40,7 @@ public sealed class VoiceMaskBoundUserInterface : BoundUserInterface
             return;
         }
 
-        _window.UpdateState(cast.Name, cast.Voice, cast.Verb); // Stories-TTS
+        _window.UpdateState(cast.Name, cast.Verb);
     }
 
     protected override void Dispose(bool disposing)
