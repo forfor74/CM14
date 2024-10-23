@@ -1,6 +1,5 @@
 using Content.Shared.Speech;
 using Robust.Shared.Prototypes;
-using Content.Shared.Humanoid;
 
 namespace Content.Server.VoiceMask;
 
@@ -15,20 +14,6 @@ namespace Content.Server.VoiceMask;
 [RegisterComponent]
 public sealed partial class VoiceMaskComponent : Component
 {
-    [DataField]
-    [ViewVariables(VVAccess.ReadWrite)]
-    public bool Enabled = true;
-
-    [DataField]
-    [ViewVariables(VVAccess.ReadWrite)]
-    public string VoiceName = "Unknown";
-
-    // Stories-TTS-Start
-    [DataField]
-    [ViewVariables(VVAccess.ReadWrite)]
-    public string VoiceId = SharedHumanoidAppearanceSystem.DefaultVoice;
-    // Stories-TTS-End
-
     /// <summary>
     ///     The name that will override an entities default name. If null, it will use the default override.
     /// </summary>

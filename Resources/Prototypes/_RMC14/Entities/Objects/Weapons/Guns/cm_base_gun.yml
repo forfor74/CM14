@@ -16,7 +16,7 @@
     skills:
       RMCSkillFirearms: 1
   - type: UseDelay
-    delay: 0
+    delay: 1
   - type: WieldDelay
   - type: AltFireMelee
   - type: MeleeWeapon
