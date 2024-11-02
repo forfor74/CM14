@@ -8,10 +8,16 @@
   },
   "states": [
     {
+      "name": "mag-1"
+    },
+    {
       "name": "base"
     },
     {
-      "name": "mag-1"
+      "name": "ammo_band"
+    },
+    {
+      "name": "ammo_band_e"
     }
   ]
 }

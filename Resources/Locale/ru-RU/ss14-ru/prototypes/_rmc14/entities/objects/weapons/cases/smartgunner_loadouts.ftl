@@ -1,6 +1,6 @@
-ent-CMSmartGunOperatorEquipmentCase = кейс системы интеллектуального оружия ML66A
+ent-CMSmartGunOperatorEquipmentCase = кейс системы интеллектуального оружия M56B
     .desc =
-        Большой кейс, в котором находится умная пушка ML66A, боевая упряжь ML66A, налобный прицел и блок питания.
+        Большой кейс, в котором находится умная пушка M56B, боевая упряжь M56B, налобный прицел и блок питания.
         
         ПРИМЕЧАНИЕ: Вы не можете поместить предметы обратно в этот кейс.
 ent-CMSmartGunOperatorEquipmentCaseBelt = { ent-CMSmartGunOperatorEquipmentCase }

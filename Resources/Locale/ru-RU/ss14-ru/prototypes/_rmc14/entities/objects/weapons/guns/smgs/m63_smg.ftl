@@ -1,10 +1,10 @@
-ent-WeaponSMGM63 = пистолет-пулемёт M63
-    .desc = Пистолет-пулемёт Aegis Battlefield Armaments M63. Иногда используется лёгкой пехотой, разведчиками, инженерами и медиками.
-ent-CMMagazineSMGM63 = магазин M63 (10x20мм)
+ent-WeaponSMGM63 = пистолет-пулемёт M39
+    .desc = Пистолет-пулемёт Aegis Battlefield Armaments M39. Иногда используется лёгкой пехотой, разведчиками, инженерами и медиками.
+ent-CMMagazineSMGM63 = магазин M39 (10x20мм)
     .desc = { ent-BaseMagazineRifle.desc }
-ent-CMMagazineSMGM63AP = магазин M63 Бронебойный (10x20мм)
+ent-CMMagazineSMGM63AP = магазин M39 Бронебойный (10x20мм)
     .desc = { ent-CMMagazineSMGM63.desc }
-ent-CMMagazineSMGM63Ext = удлинённый магазин M63 (10x20мм)
+ent-CMMagazineSMGM63Ext = удлинённый магазин M39 (10x20мм)
     .desc = { ent-CMMagazineSMGM63.desc }
 ent-CMCartridge10x20mm = патрон 10x20мм
     .desc = { ent-CMCartridgeSMGBase.desc }
