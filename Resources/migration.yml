@@ -35,6 +35,9 @@ ClothingNeckCloakGay: null
 # Remove LGBT-Backpack
 ClothingBackpackDebug3: null
 
+# Remove RMC-Patron
+RMCSpawnerFigurinePatron: null
+
 # Stories-End
 
 # 2023-07-03
