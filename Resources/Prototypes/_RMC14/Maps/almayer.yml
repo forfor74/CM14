@@ -14,7 +14,7 @@
       stationProto: StandardUNMCWarship
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'UNS Almayer'
+        mapNameTemplate: 'USS Almayer'
       - type: StationJobs
         availableJobs:
           # Command
@@ -37,7 +37,7 @@
 
           # Engineering
           CMChiefEngineer: [1, 1]
-          CMOrdnanceTech: [3, 3]
+          # CMOrdnanceTech: [3, 3]
           CMMaintTech: [1, 1]
 
           # Medical

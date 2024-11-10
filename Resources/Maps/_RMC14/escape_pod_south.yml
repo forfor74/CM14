@@ -103,11 +103,6 @@ entities:
     - type: Transform
       pos: 0.5,-0.5
       parent: 1
-    - type: ApcPowerReceiver
-      powerLoad: 0
-      needsPower: False
-    missingComponents:
-    - RMCPowerReceiver
 - proto: RMCEscapePodController
   entities:
   - uid: 19
