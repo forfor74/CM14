@@ -1,9 +1,9 @@
 ﻿<Document>
-  # ВП должена стараться оставаться нелетальной
-  Члены ВП должны стараться оставаться нелетальными и производить аресты, за исключением следующих особых обстоятельств, при которых они могут применить летальную силу:
-  - Против вас применяется смертоносная сила (например, огнестрельное оружие, оружие, выводящее из строя/ошеломляющее оружие, смертоносное оружие ближнего боя)
-  - Подозреваемый носит одежду или демонстрирует немедленно опасное снаряжение, используемое только вражескими агентами/враждебными силами, если это применимо.
-  - Вы определили, что ваша жизнь или жизнь невиновного находится в непосредственной опасности.
-  - Подозреваемый не может быть безопасно задержан менее смертоносными средствами. Это относится к подозреваемым, которые постоянно сопротивляются попыткам надеть на них наручники или постоянно пытаются сбежать.
-  - Если нет других разумных вариантов, а продолжение задержания подозреваемого будет представлять неоправданную опасность для судна/экипажа.
+  #MP should try to remain non-lethal
+  MP should try to remain non-lethal and effect arrests, except in the following special circumstances, where they may choose to use lethal force:
+  - Lethal force is used against you (ex: firearms, disabling/stunning weapons, deadly melee weapons)
+  - Suspect is wearing clothing or showing immediately dangerous equipment only used by enemy agents/hostile forces when applicable.
+  - You determine that your life or the life of an innocent is in immediate danger.
+  - The suspect is unable to be safely detained by less-lethal means. This includes suspects who continually resist efforts to be cuffed or continually manages to escape.
+  - If no other reasonable options are readily available and allowing the suspect to continue would be an unreasonable danger to the ship/crew.
 </Document>

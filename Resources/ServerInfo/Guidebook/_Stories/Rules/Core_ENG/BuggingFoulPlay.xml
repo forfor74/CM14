@@ -1,0 +1,11 @@
+<Document>
+  # Rule 5: Bug Exploitation and Foul Play
+  Do not exploit bugs or unintended features to gain an unfair advantage for yourself or your team.
+
+  ## NOT a violation:
+  - Setting up keybinds or macros using the in-game keybind settings or the bind command.
+
+  ## Examples of violations:
+  - Using autoclickers, non-gameplay macros.
+  - Using scripts/modifications to automatically aim at other players, disable shadows, or see through walls.
+</Document>

@@ -1,55 +1,191 @@
 - type: guideEntry
   parent: RMC
-  id: CMRule0
-  name: Правило 0. Не будь мудаком
-  priority: 2
+  id: StoriesOverview
+  name: Правила
+  priority: -1
   ruleEntry: true
-  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/CMRule0.xml"
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Overview.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesENGOverview
+  name: Rules
+  priority: 0
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Overview_ENG.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesCommunityExpectations
+  name: "Правило 0: Ожидания сообщества"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/CommunityExpectations.xml"
 
 - type: guideEntry
   parent: RMC
   id: StoriesGrief
-  name: Правило 1. Гриф
-  priority: 3
+  name: "Правило 1: Гриф"
+  priority: 1
   ruleEntry: true
-  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/StoriesGrief.xml"
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/Grief.xml"
 
 - type: guideEntry
   parent: RMC
-  id: StoriesGameAtmosphere
-  name: Правило 2. Нарушение игровой атмосферы
-  priority: 4
+  id: StoriesRolePlay
+  name: "Правило 2: Ролевая игра"
+  priority: 1
   ruleEntry: true
-  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/StoriesGameAtmosphere.xml"
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/RolePlay.xml"
 
 - type: guideEntry
   parent: RMC
-  id: StoriesMetagame
-  name: Правило 3. Метагейм
-  priority: 5
+  id: StoriesMetagamingMetacommunication
+  name: "Правило 3: Метагейминг и метакоммуникации"
+  priority: 1
   ruleEntry: true
-  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/StoriesMetagame.xml"
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/MetagamingMetacommunication.xml"
 
 - type: guideEntry
   parent: RMC
   id: StoriesERP
-  name: Правило 4. ERP
-  priority: 6
+  name: "Правило 4: ERP"
+  priority: 1
   ruleEntry: true
-  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/StoriesERP.xml"
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/ERP.xml"
 
 - type: guideEntry
   parent: RMC
-  id: StoriesFoulPlay
-  name: Правило 5. Нечестная игра
-  priority: 7
+  id: StoriesBuggingFoulPlay
+  name: "Правило 5: Багоюз и нечестная игра"
+  priority: 1
   ruleEntry: true
-  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/StoriesFoulPlay.xml"
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/BuggingFoulPlay.xml"
 
 - type: guideEntry
   parent: RMC
-  id: StoriesGameConventions
-  name: Правило 6. Условности игрового режима
-  priority: 8
+  id: StoriesBypassBlockingMultiAccounts
+  name: "Правило 6: Обход блокировок, мультиаккаунты"
+  priority: 1
   ruleEntry: true
-  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/StoriesGameConventions.xml"
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/BypassBlockingMultiAccounts.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesPlayYourRole
+  name: "Правило 7: Отыгрывайте свою роль"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/PlayYourRole.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesCharacterNames
+  name: "Правило 8: Имена персонажей"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/CharacterNames.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesUseOfLethalForce
+  name: "Правило 9: Применение летальной силы"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/UseOfLethalForce.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesMilitaryLawMutinies
+  name: "Правило 10: Военный закон, мятежи"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core/MilitaryLawMutinies.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesENGCommunityExpectations
+  name: "Rule 0: Community Expectations"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core_ENG/CommunityExpectations.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesENGGrief
+  name: "Rule 1: Griefing"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core_ENG/Grief.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesENGRolePlay
+  name: "Rule 2: Roleplaying"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core_ENG/RolePlay.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesENGMetagamingMetacommunication
+  name: "Rule 3: Metagaming and Metacommunication"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core_ENG/MetagamingMetacommunication.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesENGERP
+  name: "Rule 4: ERP"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core_ENG/ERP.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesENGBuggingFoulPlay
+  name: "Rule 5: Bug Exploitation and Foul Play"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core_ENG/BuggingFoulPlay.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesENGBypassBlockingMultiAccounts
+  name: "Rule 6: Ban Evasion and Multi-accounting"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core_ENG/BypassBlockingMultiAccounts.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesENGPlayYourRole
+  name: "Rule 7: Play Your Role"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core_ENG/PlayYourRole.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesENGCharacterNames
+  name: "Rule 8: Character Names"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core_ENG/CharacterNames.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesENGUseOfLethalForce
+  name: "Rule 9: Use of Lethal Force"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core_ENG/UseOfLethalForce.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: StoriesENGMilitaryLawMutinies
+  name: "Rule 10: Military Law and Mutinies"
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/_Stories/Rules/Core_ENG/MilitaryLawMutinies.xml"

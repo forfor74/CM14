@@ -1,17 +1,15 @@
 ﻿<Document>
-  # Путеводитель нового игрока
 
-  # New player guides
+  # Руководства для новых игроков
 
-  - You can use the examine key (Shift + left mouse by default) to examine any entities in the guidebook.
-  - Make sure to set up your keybinds the way you like, and check out RMC14 specific keybinds! CM13 players will find this very helpful.
+  Вы можете использовать клавишу осмотра (Shift + левая кнопка мыши по умолчанию), чтобы осмотреть любые сущности в руководстве.
 
-  ## Marine
-  - [textlink="Your first day as a rifleman!" link="CMGuideRoleRifleman"]
+  Обязательно настройте сочетания клавиш так, как вам нравится, и ознакомьтесь со специфичными для Space Stories Colonial Marines сочетаниями клавиш! Игрокам CM13 это будет очень полезно.
 
-  ## Xeno
-  - [textlink="So you've just been born into the hive! Now what?" link="CMGuideRoleDrone"]
+  ## Морпех
+  - [textlink="Ваш первый день в роли стрелка!" link="CMGuideRoleRifleman"]
 
-  ## Ксеноморфы
-  - [textlink="Итак, вы только что родились в улье! Что теперь?" link="CMGuideRoleDrone"]
+  ## Чужой
+  - [textlink="Вы только что родились в улье! Что теперь?" link="CMGuideRoleDrone"]
+
 </Document>

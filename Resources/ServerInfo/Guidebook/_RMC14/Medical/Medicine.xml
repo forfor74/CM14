@@ -1,7 +1,8 @@
 ﻿<Document>
-  # Основные лекарства
 
-  Эти лекарства почти всегда полезны в том или ином виде.
+  # Основные лекарственные препараты
+
+  Эти лекарства почти всегда полезны в той или иной степени.
 
   <GuideReagentEmbed Reagent="CMTricordrazine"/>
   <GuideReagentEmbed Reagent="CMBicaridine"/>
@@ -11,9 +12,9 @@
   <GuideReagentEmbed Reagent="CMDexalinPlus"/>
   <GuideReagentEmbed Reagent="CMDermaline"/>
 
-  # Специальные препараты
+  # Специализированные лекарственные препараты
 
-  Эти препараты, как правило, имеют специфические случаи использования.
+  Эти лекарства, как правило, имеют конкретные случаи применения.
 
   <GuideReagentEmbed Reagent="CMInaprovaline"/>
   <GuideReagentEmbed Reagent="CMEpinephrine"/>
@@ -22,9 +23,10 @@
   <GuideReagentEmbed Reagent="CMLeporazine"/>
   <GuideReagentEmbed Reagent="CMCryoxadone"/>
 
-  # Все лекарства
+  # Все лекарственные препараты
 
-  Это список всех доступных лекарств, включая ранее перечисленные.
+  Это список всех доступных лекарств, включая перечисленные ранее.
 
   <GuideReagentGroupEmbed Group="Medicine"/>
+
 </Document>

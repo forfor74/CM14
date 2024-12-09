@@ -1,56 +1,56 @@
 <Document>
-  #Requisitions
+  #Запросы
 
-  Rise and shine! The Corps have been activated and they need you to keep them in fighting shape. Without additional supply, Marines will be about as menacing as your average paper pusher, so punch in your card and get to work!
+  Подъём! Корпус активирован, и им нужна ваша помощь, чтобы поддерживать боеспособность. Без дополнительного снабжения морпехи будут не опаснее среднестатистического офисного работника, так что беритесь за дело!
 
-  Make your way to the front desk and hit the red button to raise the shutters. Soon, Marines will line up to request various items they were unable to obtain from their barracks. Majority of these requests will be fulfilled using the preloaded Vendors.
+  Пройдите к стойке и нажмите красную кнопку, чтобы поднять ставни. Вскоре морпехи выстроятся в очередь, чтобы запросить различные предметы, которые они не смогли получить в своих казармах. Большинство этих запросов будет выполнено с помощью предварительно загруженных торговых автоматов.
 
   <Box>
     <GuideEntityEmbed Entity="ColMarTechCargoGuns"/>
   </Box>
 
-  - [bold]Armaments Attachments[/bold]: Contains attachments for Marines to improve their weapons.
-  - [bold]Automated Armaments[/bold]: Contains additional Weapons, Explosives, Webbings, Bags and Belts, Pouches, and utility gear.
-  - [bold]Automated Munition[/bold]: Contains regular, armour piercing, and extended magazines for the various Marine weapons and pistols. Also contains the special Smart Gun Ammo.
-  - [bold]Surplus Uniform[/bold]: Contains spare uniforms, helmets, armour, and radio encryption keys.
-  - The [bold]Autolathe[/bold] can produce additional medical gear, engineering tools, and some furniture.
+  - [bold]Модификации оружия[/bold]: Содержит модификации для улучшения оружия морпехов.
+  - [bold]Автоматизированное вооружение[/bold]: Содержит дополнительное оружие, взрывчатку, разгрузочные системы, сумки и ремни, подсумки и вспомогательное снаряжение.
+  - [bold]Автоматизированные боеприпасы[/bold]: Содержит обычные, бронебойные и расширенные магазины для различного оружия и пистолетов морской пехоты. Также содержит специальные боеприпасы для умного оружия.
+  - [bold]Дополнительная униформа[/bold]: Содержит запасную униформу, шлемы, броню и ключи шифрования радиосвязи.
+  - [bold]Автоматический токарный станок[/bold] может производить дополнительное медицинское оборудование, инженерные инструменты и некоторую мебель.
 
-  If something is missing from these vendors or crafting machines, there is a good chance you’ll need to acquire it from below deck.
+  Если чего-то не хватает в этих торговых автоматах или производственных машинах, есть большая вероятность, что вам нужно будет приобрести это с нижней палубы.
 
-  ##Acquisitions
+  ##Приобретения
 
-  This responsibility is often managed by the Quartermaster or Auxiliary Support Officer, your direct superiors, but inexpensive orders are often left for the Cargo Techs. If you’re ever unsure about a purchase, contact them across the Requisitions radio frequency.
+  Эта обязанность часто возлагается на квартирмейстера или офицера вспомогательной поддержки, ваших непосредственных начальников, но недорогие заказы часто оставляют техникам грузового отсека. Если вы когда-нибудь не уверены в покупке, свяжитесь с ними по радиочастоте снабжения.
 
-  Acquisitions is handled using the ASRS console.
+  Приобретения осуществляются с помощью консоли ASRS.
 
   <Box>
     <GuideEntityEmbed Entity="CMASRSConsole"/>
   </Box>
 
-  Everything Marines will need can be found here. To order items, first lower the loading platform using the console, and then order the desired crates of supply one at a time. There is no confirmation signal, you touch it you buy it! Items are categorized by function, and the ones you’ll most frequently visit are:
+  Здесь можно найти все, что нужно морпехам. Чтобы заказать предметы, сначала опустите погрузочную платформу с помощью консоли, а затем закажите нужные ящики с припасами по одному. Сигнала подтверждения нет, как только вы коснётесь, вы покупаете! Предметы классифицируются по функциям, и те, которые вы будете посещать чаще всего:
 
-  - [bold]Ammo[/bold]: Ammunition for the regular Marine guns and pistols, as well as Sentry and Smart Gun supplies.
-  - [bold]Engineering[/bold]: Building materials and Electrical components.
-  - [bold]Explosives[/bold]: Grenades and Breaching charges.
-  - [bold]Gear[/bold]: Binoculars and Flare packs.
-  - [bold]Mortar[/bold]: Mortars and their munitions.
-  - [bold]Weapon Specialist Ammo[/bold]: Ammunition for the highly specialised Marine weapons.
+  - [bold]Боеприпасы[/bold]: Боеприпасы для обычных орудий и пистолетов морской пехоты, а также припасы для турелей и умного оружия.
+  - [bold]Инженерное дело[/bold]: Строительные материалы и электрические компоненты.
+  - [bold]Взрывчатые вещества[/bold]: Гранаты и подрывные заряды.
+  - [bold]Снаряжение[/bold]: Бинокли и сигнальные ракеты.
+  - [bold]Миномет[/bold]: Минометы и их боеприпасы.
+  - [bold]Боеприпасы для специалистов по оружию[/bold]: Боеприпасы для узкоспециализированного оружия морской пехоты.
 
-  If you’re unsure of the category an item is in, make use of the search feature to find it quickly.
+  Если вы не уверены, в какой категории находится предмет, воспользуйтесь функцией поиска, чтобы быстро его найти.
 
-  After the orders have been placed, raise the loading platform to acquire all the crates of gear and equipment purchased. Open all the crates and offload the gear onto various racks but keep the crates on the loading pit!
+  После размещения заказов поднимите погрузочную платформу, чтобы получить все приобретенные ящики со снаряжением и оборудованием. Откройте все ящики и выгрузите снаряжение на различные стеллажи, но оставьте ящики на погрузочной площадке!
 
-  When the supplies are offloaded, remove the invoice from each crate and stamp it with your green approved stamp, then reattach the invoice back to its crate. When the loading platform is lowered again, you’ll receive a small rebate for properly processing the order and recycling the crate.
+  Когда припасы выгружены, извлеките накладную из каждого ящика и проштампуйте ее зеленой печатью «Утверждено», затем снова прикрепите накладную к ящику. Когда погрузочная платформа снова опустится, вы получите небольшую скидку за правильную обработку заказа и переработку ящика.
 
-  Keep the loading platform lowered to make the next order slightly faster, and then remove all nearby tripping hazards.
+  Держите погрузочную платформу опущенной, чтобы следующий заказ был немного быстрее, а затем уберите все близлежащие предметы, о которые можно споткнуться.
 
-  ##Post Deployment
+  ##После развертывания
 
-  Once the Marine’s orders are fulfilled and the waiting lines are empty, the job is not over. You’ll need to continue acquiring supply and loading it onto the Dropships to ferry it directly to the Marines in the AO. Keep an ear out on radio communications to find out what’s required and make damn sure the empty crates are returned to be refilled!
+  После того, как заказы морпехов выполнены, а очереди пусты, работа еще не закончена. Вам нужно будет продолжать приобретать припасы и загружать их на десантные корабли, чтобы доставить их непосредственно морпехам в зону боевых действий. Слушайте радиосвязь, чтобы узнать, что требуется, и убедитесь, что пустые ящики возвращены для повторного заполнения!
 
-  To save money, make sure to use up the supply in the preloaded Vendors before acquiring more. Items often requested in bulk, such as regular ammunition and flares, can be looted from the Squad Barracks Vendors and ferried to Marines free of charge.
+  Чтобы сэкономить деньги, обязательно используйте припасы из предварительно загруженных торговых автоматов, прежде чем приобретать новые. Предметы, которые часто запрашиваются оптом, такие как обычные боеприпасы и сигнальные ракеты, можно получить из торговых автоматов в казармах отрядов и бесплатно переправить морпехам.
 
-  There are plenty of free supplies in various locations aboard the Almayer, as well as numerous ways to efficiently load and transport these items. To discover the secrets of the trade, try talking to your direct superiors or the resident mentor, the Senior Enlisted Advisor.
+  На борту «Алмайера» есть много бесплатных припасов в различных местах, а также множество способов эффективно загружать и перевозить эти предметы. Чтобы раскрыть секреты ремесла, попробуйте поговорить со своими непосредственными начальниками или наставником, старшим советником.
 
   <Box>
     <GuideEntityEmbed Entity="CMGuidebookRoleSEA"/>

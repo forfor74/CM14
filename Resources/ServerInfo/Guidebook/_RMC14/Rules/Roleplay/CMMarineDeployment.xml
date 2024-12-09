@@ -1,19 +1,19 @@
 ﻿<Document>
-  # Развёртывание морпехов
-  - Морские пехотинцы должны следовать своим ролевым задачам.
-  - Санитары должны лечить своих товарищей, специалисты - использовать свое оборудование.
-  - Командиры отрядов должны всегда слушать командование.
-  - Члены отряда должны всегда выполнять приказы командира отряда.
-  - Главы департаментов (ГВП, СИ, ГВ, Квартирмейстер, Смотритель) не должны выходить за пределы авианосца.
-  - Все морпехи (боевые роли) должны развертываться, когда это возможно.
+  #Deployment of Marine forces
+  - Marines should be following their role objectives.
+  - Corpsmen should heal their comrades, a specialist should be using their equipment.
+  - Squad leaders should always listen to command.
+  - Squad members should always follow the orders of the squad leader.
+  - Department heads (RD, CMP, CMO, Warden) should not deploy.
+  - All marines (combat roles) should deploy when possible.
 
-  ## Экипаж корабля может развернуться, где это уместно, с разрешения
-  - ПОБ - это безопасная, охраняемая территория, выделенная командующим операцией.
-  - Техники по обслуживанию могут оказывать помощь в строительстве ПОБ.
-  - ГВ или командир операции может дать разрешение медбату, чтобы тот мог лечить морпехов на территории ПОБ.
-  - Медицинские роли (за исключением санитаров) не являются боевыми и не должны получать морское снаряжение, кроме пистолета для самообороны на планете. Им не разрешается покидать зоны, назначенные командующим операцией.
-  - ГВП может дать разрешение ВП, чтобы они могли производить аресты в пределах ПОБ.
-  - ВП не выполняет боевых функций и должны сосредоточиться исключительно на обеспечении соблюдения законов на ПОБ.
-  - Боевые корреспонденты занимаются репортажами о боевых действиях и отключаются, когда их атакуют.
-  - Командир, Исполнительный офицер могут высадиться, если они назначат нового капитана корабля (лицо, отвечающее за команду корабля).
+  ##Ship crew may deploy, where relevant, with permission.
+  - The FOB is the safe, secure, designated area by the commander of the operation.
+  - Maint techs may assist building FOB.
+  - The CMO or operation commander may give permission to medbay so they may treat marines within the FOB.
+  - Medical roles (excluding corpsmen) are not combat roles, and should not be assigned marine equipment outside of a pistol for self defense on the planet. They are not permitted to leave the areas designated by the operation commander.
+  - The CMP may give permission to MP so they may make arrests within the FOB.
+  - The MP are not combat roles, and should focus solely on enforcing laws in the FOB.
+  - Combat Correspondents focus on reporting on combat and disengage when attacked.
+  - CO, XO may deploy if they assign a new warship commander (The person in charge of the warship crew)
 </Document>

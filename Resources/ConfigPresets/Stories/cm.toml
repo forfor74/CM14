@@ -68,6 +68,9 @@ target_minimum_tickrate = 120
 [procgen]
 preload = false
 
+[server]
+rules_file = "StoriesOverview"
+
 [shuttle]
 auto_call_time = 0
 emergency      = false

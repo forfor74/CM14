@@ -1,65 +1,68 @@
 ﻿<Document>
-  # Правила Stories - Colonial Marines
+  # RMC-14 Rules
 
-  Если вы не можете нажать ни на одну из ссылок, воспользуйтесь версией внутриигрового путеводителя.
+  If you are unable to click any of the links, use the in-game guidebook version.
 
-  ## Недавние изменения
-  Прочитайте соответствующие разделы, чтобы получить полный текст.
-  - (End-of-round grief, Zero tolerance) Самоубийства, совершенные в конце раунда без веской ролевой причины, теперь запрещены и считаются обычным end-of-round grief, и приведут к немедленному необжалованному 3-часовому бану.
-  - (Общие ролевые стандарты) Самоубийства могут быть совершены по уважительной ролевой причине. Прочитайте раздел для более подробной информации. Например, самоубийство в качестве выжившего в сценарии последнего боя, когда ясно, что вас захватят ксеноморфы и нет надежды отбиться.
+  ## Recent Changes
+  Read the relevant sections for the entire text.
+  - (Command/MP Roleplay Standards) You are expected to be able to communicate clearly when giving orders or acting on things related to marine law, like arrest handling and appeals.
+  - (General Roleplay Standards, metagaming) Surrounding a comms tower entirely with reinforced walls to prevent Xenos attacking it without T3s is not allowed.
+  - (General Roleplay Standards, Suicides) Suicides can be done with a valid roleplay reason. Read the section for more details. An example is suiciding as a survivor in a last stand scenario, when it is clear that you will be captured by xenonids and there is no hope of fighting back. Do not attempt then cancel a suicide, it is treated the same.
 
-  ## Решения администрации окончательны.
-  - Правила применяются в соответствии с их смыслом. Невозможно написать все примеры нарушения правил, поэтому их применение зависит от интерпретации администратором смысла правила.
-  - По своему усмотрению администраторы могут устранять нарушения правил с помощью последствий для персонажа. Это не относится к правилам нулевой терпимости.
-  - Вы можете подать жалобу главному персоналу, если считаете решение неправильным.
+  ## Admin Decisions Are Final.
+  - Rules are enforced as intended. Every example of a rule break cannot be written, thus enforcement is subject to admin interpretation of the rule’s intention.
+  - Admins may handle rule breaks through in-character consequences at their discretion. This does not apply to zero tolerance rules.
+  - You may file a staff complaint with head staff if you find the decision to be incorrect.
 
-  ## Общая информация
-  Отключение или игнорирование/отказ от ахелпа администратора приведет к бану только по апелляции.
-  Это сделано для того, чтобы недобросовестные игроки не смогли избежать наказания. Если вам нужно срочно уйти, сообщите нам, и это будет учтено при подаче апелляции.
+  ## General Information
+  Disconnecting from or ignoring/evading admin-helps will result in an appeal only ban.
+  This is to prevent bad actors from avoiding issues. If you need to leave urgently, let us know and it will be considered in your appeal.
 
 
-  Все приведенные ниже правила действуют всегда, в том числе и между раундами.
+  All of the below rules apply at all times, including between rounds.
 
-  Эти правила не являются ни SS14, ни CM13 и должны быть прочитаны полностью.
+  These rules are neither exactly SS14 or CM13 and should be read in their entirety.
 
-  [textlink="[Определения бана]" link="CMBanTypes"]
+  [textlink="[Ban Definitions]" link="CMBanTypes"]
 
-  [textlink="[Длительность бана]" link="CMBanDurations"]
+  [textlink="[Ban Durations]" link="CMBanDurations"]
 
-  ## Правила нулевой нетерпимости
-  За нарушение этих правил вы можете быть забанены без предупреждения.
-  - [textlink="0." link="CMZeroTolerance"]
+  ## Zero Tolerance Rules
+  You are liable to be banned without warning for breaking these rules.
+  - [textlink="Click here to read the zero tolerance rules." link="CMZeroTolerance"]
 
-  ## Основные правила
-  Это общие правила Stories - Colonial Marines. Нажмите на них, чтобы получить более подробную информацию.
-  - [textlink="1. Гриф." link="StoriesGrief"]
-  - [textlink="2. Нарушение игровой атмосферы." link="StoriesGameAtmosphere"]
-  - [textlink="3. Метагейм." link="StoriesMetagame"]
-  - [textlink="4. ERP." link="StoriesERP"]
-  - [textlink="5. Нечестная игра." link="StoriesFoulPlay"]
-  - [textlink="6. Условности игрового режима." link="StoriesGameConventions"]
+  ## Core Rules
+  These are the general rules of RMC14. Click them for more information.
+  - [textlink="1. These are English servers, please only use english." link="CMLanguage"]
+  - [textlink="2. Do not use multiple accounts, or alt accounts, and do not share accounts." link="CMMultikey"]
+  - [textlink="3. Follow the rules of escalation against non-hostiles." link="CMRulesEscalation"]
+  - [textlink="4. Don't use information gained from outside your character's knowledge." link="CMMetaknowledge"]
+  - [textlink="5. Don't antagonize your team." link="CMKindness"]
+  - [textlink="6. Don't harass or target players across rounds." link="CMMetagrudging"]
+  - [textlink="7. Don't immediately quit your role if you do not get the role you want." link="CMRoleRolling"]
+  - [textlink="8. Don't quit a head role without notice." link="CMCommandRoles"]
 
-  ## Бунты, мятежи
-  - [textlink="Мятежи, бунты и подобные действия требуют разрешения администратора." link="CMMutinies"]
+  ## Riots, Mutiny
+  - [textlink="1. Mutinies, riots and similar activity require admin permission." link="CMMutinies"]
 
-  ## Военные и командование
-  Эти правила также распространяются на любого человека, который получает повышение или действует вместо члена парламента/командира (если только он не является членом враждебных сил).
-  - [textlink="1. Морское право." link="CMMarineLaw"]
-  - [textlink="2. Командование и ВП придерживаются более высоких стандартов игры." link="CMHigherStandards"]
-  - [textlink="3. ВП должно стараться не применять смертоносных средств и производить аресты, за исключением особых обстоятельств." link="CMLethalForce"]
-  - [textlink="4. ВП должена будет ответить за применение смертоносной силы." link="CMLethalForceConsequences"]
-  - [textlink="5. От ВП ожидается, что они будут защищать задержанных, находящихся под их опекой, в меру своих возможностей." link="CMProtectDetainees"]
-  - Только командир или высшее командование (админы), внесенные в белый список, могут утверждать казни.
-  - Помиловать приговор может только командир или высшее командование, внесенное в белый список.
+  ## Military and Command
+  These rules also apply to any individual who is promoted or is acting in the place of a MP/Command role (unless they are a member of a hostile force).
+  - [textlink="1. Marine Law." link="CMMarineLaw"]
+  - [textlink="2. Command and MP are held to a higher standard of play." link="CMHigherStandards"]
+  - [textlink="3. MP should try to remain non-lethal and effect arrests, except in specific special circumstances." link="CMLethalForce"]
+  - [textlink="4. MP will be expected to answer for use of lethal force." link="CMLethalForceConsequences"]
+  - [textlink="5. MP are expected to protect detainees in their custody to the best of their ability." link="CMProtectDetainees"]
+  - Only a whitelisted CO or high command (admins) may approve executions.
+  - Only a whitelisted CO or high command may pardon a sentence.
 
-  ## Правила ролевой игры
+  ## Roleplay Rules
 
-  - [textlink="1. Общие стандарты ролевой игры." link="CMGeneralRoleplayStandards"]
-  - [textlink="2. Морпехи." link="CMMarineRoleplayStandards"]
-  - [textlink="3. Развёртывание морпехов." link="CMMarineDeployment"]
-  - [textlink="4. Командование." link="CMCommandRoleplay"]
-  - [textlink="5. Ксеноморфы." link="CMXenoRoleplay"]
-  - [textlink="6. Выжившие." link="CMSurvivorRoleplay"]
-  - [textlink="7. Враждебные фракции." link="CMHostileFactionRoleplay"]
-  - [textlink="8. Цепь командования." link="CMCommandChain"]
+  - [textlink="1. General Roleplay Standards." link="CMGeneralRoleplayStandards"]
+  - [textlink="2. Marines." link="CMMarineRoleplayStandards"]
+  - [textlink="3. Deployment of Marines." link="CMMarineDeployment"]
+  - [textlink="4. Command." link="CMCommandRoleplay"]
+  - [textlink="5. Xenonids." link="CMXenoRoleplay"]
+  - [textlink="6. Survivors." link="CMSurvivorRoleplay"]
+  - [textlink="7. Hostile Factions." link="CMHostileFactionRoleplay"]
+  - [textlink="8. Chain of Command." link="CMCommandChain"]
 </Document>
