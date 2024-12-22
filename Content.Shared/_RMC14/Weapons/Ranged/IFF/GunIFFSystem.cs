@@ -123,6 +123,15 @@ public sealed class GunIFFSystem : EntitySystem
         Dirty(user);
     }
 
+    public void SetIFFState(EntityUid ent, bool enabled)
+    {
+        if (TryComp<GunIFFComponent>(ent, out var comp))
+        {
+            comp.Enabled = enabled;
+            Dirty(ent, comp);
+        }
+    }
+
     public void GiveAmmoIFF(EntityUid gun, ref AmmoShotEvent args, bool intrinsic, bool enabled)
     {
         EntityUid owner;
