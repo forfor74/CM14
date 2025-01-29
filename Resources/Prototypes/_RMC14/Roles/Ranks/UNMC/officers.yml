@@ -1,28 +1,4 @@
 - type: rank
-  id: RMCRankMarineCommandant
-  name: Комендант Корпуса Морской Пехоты
-  prefix: ККМП
-  paygrade: O10S
-
-- type: rank
-  id: RMCRankAssistantCommandant
-  name: Помощник Коменданта Корпуса Морской Пехоты
-  prefix: ПККМП
-  paygrade: O10C
-
-- type: rank
-  id: RMCRankGeneral
-  name: Генерал
-  prefix: Ген.
-  paygrade: O10
-
-- type: rank
-  id: RMCRankLieutenantGeneral
-  name: Генерал Лейтенант
-  prefix: Генерал Лейтенант
-  paygrade: O9
-
-- type: rank
   id: RMCRankMajorGeneral
   name: Генерал Майор
   prefix: Ген. Майор

@@ -17,6 +17,7 @@
     whitelist:
       tags:
       - RMCSpeedLoaderM44
+      - RMCSpeedLoader44Marksman
       - RMCCartridgeRevolver44
     proto: null # Stories-Partners
     capacity: 7

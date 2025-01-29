@@ -3,10 +3,10 @@
 
   ## Оружейные
 
-  - Оборудование из оружейных может быть выдано всему персоналу во время сценария кода [bold][color=red]Красный[/color][/bold] или кода [bold][color=black]Дельта[/color][/bold]. Офицеры имеют приоритет перед рядовыми.
-  - Оборудование, найденное в оружейных, такое как тактический дробовик M890, не разрешается выдавать не-офицерам без ясной, понятной и неотложной причины. Развертывание не является неотложной причиной.
-  - Оружие [color=#00CBFE][bold]Командующего Офицера[/bold][/color] также не может быть выдано.
-  - Оборудование, хранящееся в оружейных, не может быть частью грузов снабжения, наград или призов и не может использоваться для формирования отряда.
+  - Armory equipment may only be given to all personnel during a Code [bold][color=red]Red[/color][/bold] or Code [bold][color=black]Delta[/color][/bold] scenario. Officers must be prioritized before enlisted.
+  - Equipment found in armories such as the M890 Tactical Shotgun are not allowed to be handed out to non-officers without a clear, understandable, and urgent reason. Deployment is not an urgent reason.
+  - The [color=#00CBFE][bold]Commanding Officer[/bold][/color]'s weapons may also not be handed out.
+  - Equipment stored in armories may not be part of a supply drop, rewards or prizes, and may not be used to form a squad.
 
   ## Ядро ИИ
 

@@ -148,6 +148,7 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
     private int _mapVoteExcludeLast;
     private bool _useCarryoverVoting;
     private TimeSpan _hijackStunTime = TimeSpan.FromSeconds(5);
+    private bool _landingZoneMiasmaEnabled;
 
     private readonly List<MapId> _almayerMaps = [];
     private readonly List<EntityUid> _marineList = [];
@@ -203,6 +204,7 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
         Subs.CVar(_config, RMCCVars.RMCAdminFaxAreaMap, v => _adminFaxAreaMap = v, true);
         Subs.CVar(_config, RMCCVars.RMCPlanetMapVoteExcludeLast, v => _mapVoteExcludeLast = v, true);
         Subs.CVar(_config, RMCCVars.RMCUseCarryoverVoting, v => _useCarryoverVoting = v, true);
+        Subs.CVar(_config, RMCCVars.RMCLandingZoneMiasmaEnabled, v => _landingZoneMiasmaEnabled = v, true);
 
         ReloadPrototypes();
     }
@@ -1026,7 +1028,9 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
         _mapManager.SetMapPaused(mapId, false);
 
         // TODO RMC14 this should be delayed by 3 minutes + 13 second warning for immersion
-        if (rule.Comp.LandingZoneGas is { } gas && TryComp(rule.Comp.XenoMap, out AreaGridComponent? areaGrid))
+        if (_landingZoneMiasmaEnabled &&
+            rule.Comp.LandingZoneGas is { } gas &&
+            TryComp(rule.Comp.XenoMap, out AreaGridComponent? areaGrid))
         {
             foreach (var (indices, areaProto) in areaGrid.Areas)
             {
