@@ -1,7 +1,7 @@
 ﻿- type: radioChannel
   id: SPP
   name: chat-radio-spp
-  keycode: "y"
+  keycode: "щ"
   frequency: 1251
   color: "#9b0612"
   longRange: true
@@ -9,7 +9,7 @@
 - type: radioChannel
   id: SPPCommand
   name: chat-radio-spp-command
-  keycode: "k"
+  keycode: "з"
   frequency: 1252
   color: "#9b0612"
   longRange: true
@@ -17,7 +17,7 @@
 - type: radioChannel
   id: SPPEngi
   name: chat-radio-spp-engi
-  keycode: "s"
+  keycode: "ь"
   frequency: 1253
   color: "#9b0612"
   longRange: true
@@ -25,7 +25,7 @@
 - type: radioChannel
   id: SPPMed
   name: chat-radio-spp-med
-  keycode: "i"
+  keycode: "ш"
   frequency: 1254
   color: "#9b0612"
   longRange: true
@@ -33,7 +33,7 @@
 - type: radioChannel
   id: SPPCCT
   name: chat-radio-spp-cct
-  keycode: "x"
+  keycode: "ъ"
   frequency: 1255
   color: "#9b0612"
   longRange: true

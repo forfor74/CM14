@@ -61,21 +61,6 @@
     tailDamage:
       groups:
         Brute: 54
-  - type: XenoRavageCharge # Stories Change
-    damage:
-      types:
-        Blunt: 45
-        Structural: 45
-  - type: XenoEmpower # Stories Change
-  - type: Tackle
-    max: 5
-    chance: 0.35
-    stunMin: 4
-    stunMax: 5
-  - type: XenoScissorsCut # Stories Change
-    damage:
-      groups:
-        Brute: 40
   - type: Flammable
     damage:
       types:
