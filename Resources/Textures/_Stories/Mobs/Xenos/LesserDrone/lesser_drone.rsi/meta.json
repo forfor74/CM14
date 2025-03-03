@@ -17,22 +17,27 @@
       "name": "lesser_rest_3"
     },
     {
-      "name": "lesser_walk_0"
+      "name": "lesser_walk_0",
+      "directions": 4
     },
     {
-      "name": "lesser_walk_1"
+      "name": "lesser_walk_1",
+      "directions": 4
     },
     {
-      "name": "lesser_walk_2"
+      "name": "lesser_walk_2",
+      "directions": 4
     },
     {
-      "name": "lesser_walk_3"
+      "name": "lesser_walk_3",
+      "directions": 4
     },
     {
       "name": "sleeping"
     },
     {
-      "name": "alive"
+      "name": "alive",
+      "directions": 4
     },
     {
       "name": "dead"

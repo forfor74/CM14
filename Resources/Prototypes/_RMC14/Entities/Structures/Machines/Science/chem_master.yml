@@ -98,4 +98,4 @@
   - type: SolutionContainerManager
     solutions:
       buffer:
-        maxVol: 500
+        maxVol: 300 # Stories-Parity
