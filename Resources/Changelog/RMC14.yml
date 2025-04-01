@@ -1,26 +1,4 @@
 ﻿Entries:
-- author: DummeHytteOst
-  changes:
-  - message: XOs have been given a coat, senior command headset, Leather satchle,
-      and the MP radio channel.
-    type: Add
-  id: 1032
-  time: '2024-11-29T05:04:50.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/4977
-- author: DummeHytteOst
-  changes:
-  - message: Fixed M16 bullets doing too much damage (56 > 40)
-    type: Fix
-  id: 1033
-  time: '2024-11-29T05:06:13.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/4976
-- author: DummeHytteOst
-  changes:
-  - message: Legal Closet is no longer movable
-    type: Fix
-  id: 1034
-  time: '2024-11-29T05:07:12.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/4975
 - author: Rainbeon
   changes:
   - message: Xeno ghosts will now retain their full xeno names, including rank, caste,
@@ -5363,5 +5341,58 @@
   id: 1534
   time: '2025-03-30T22:28:12.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/6035
+- author: DrSmugleaf
+  changes:
+  - message: Fixed comms towers not being shown in the tactical map, and hopefully
+      some of the marines too.
+    type: Fix
+  - message: Fixed laser designator working inside some buildings. Shoutout to Alec
+      for actually reporting this bug instead of posting unconstructive toxic feedback
+      making up shit about how the game should work. Rangefinder still works.
+    type: Fix
+  - message: Fixed rangefinder and laser designator dot being hidden by doors. Shoutout
+      for this one goes to truthe.
+    type: Fix
+  - message: Fixed uniforms not having 10 bullet armor.
+    type: Fix
+  - message: Fixed ladders leaving behind ghosts of other players.
+    type: Fix
+  id: 1535
+  time: '2025-03-31T01:32:06.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/6045
+- author: DrSmugleaf
+  changes:
+  - message: Fixed ladders not working.
+    type: Fix
+  - message: Fixed correspondent cameras sometimes not showing up on tvs.
+    type: Fix
+  - message: Fixed the overwatch console freaking out when using any filters.
+    type: Fix
+  - message: Fixed tile fires not drawing over walls. Doors still hide them.
+    type: Fix
+  - message: Fixed signal flares sometimes dropping on your feet when thrown.
+    type: Fix
+  - message: Fixed Oppressor Praetorian abduct targets being bounced against each
+      other.
+    type: Fix
+  - message: Fixed set pose verb popping up after a short delay.
+    type: Fix
+  - message: Fixed soda fountains not fitting through doors.
+    type: Fix
+  - message: Fixed interact with other hand label in options being broken.
+    type: Fix
+  - message: Fixed rangefinders showing a switch to designator mode that does nothing
+      when used. Laser designators can still be switched normally.
+    type: Fix
+  id: 1536
+  time: '2025-03-31T04:38:32.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/6048
+- author: CyberTropic
+  changes:
+  - message: Fixed extra intel spawning on map inserts.
+    type: Fix
+  id: 1537
+  time: '2025-03-31T04:32:32.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/6043
 Name: RMC14
 Order: -1
