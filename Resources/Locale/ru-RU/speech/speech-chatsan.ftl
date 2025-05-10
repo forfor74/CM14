@@ -427,4 +427,10 @@ stories-chatsan-word-22 = буровер
 stories-chatsan-replacement-22 = бурильщик
 stories-chatsan-word-23 = гойда
 stories-chatsan-replacement-23 = я долбаёб
+stories-chatsan-word-24 = фоб
+stories-chatsan-replacement-24 = поб
+stories-chatsan-word-25 = лз1
+stories-chatsan-replacement-25 = зп1
+stories-chatsan-word-26 = лз2
+stories-chatsan-replacement-26 = зп2
 # Stories-Brainrot-End
