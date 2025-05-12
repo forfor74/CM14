@@ -537,7 +537,7 @@
   - type: InstantAction
     itemIconStyle: NoItem
     icon:
-      sprite: _RMC14/Actions/xeno_actions.rsi
+      sprite: _Stories/Actions/xeno_actions.rsi
       state: stomp
     event: !type:XenoStompActionEvent
     useDelay: 12
@@ -567,7 +567,7 @@
   - type: InstantAction
     itemIconStyle: NoItem
     icon:
-      sprite: _RMC14/Actions/xeno_actions.rsi
+      sprite: _Stories/Actions/xeno_actions.rsi
       state: ready_charge
     event: !type:XenoToggleChargingActionEvent
     useDelay: 0.25
@@ -579,8 +579,8 @@
   components:
   - type: EntityTargetAction
     icon:
-      sprite: _RMC14/Actions/xeno_actions.rsi
-      state: fling # TODO RMC14 ram
+      sprite: _Stories/Actions/xeno_actions.rsi
+      state: ram
     useDelay: 10
   - type: XenoActionPlasma
     cost: 10

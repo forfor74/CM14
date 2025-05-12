@@ -306,7 +306,7 @@ rmc-xeno-apprehend-expire = Мы ждали слишком долго, наш у
 # Rage
 rmc-xeno-rage-lock = Мы чувствуем эйфорический прилив, достигнув максимальной ярости! Мы ЗАБЛОКИРОВАНЫ на максимальной Ярости!
 rmc-xeno-rage-expire = Наши надпочечники спазмируют. Мы не можем набирать ярость в течение { $cooldown } секунд.
-rmc-xeno-rage-examine = { CAPITALIZE(SUBJECT($xeno)) } { CONJUGATE-BE($xeno) } имеет { $amount }/{ $max } стаков ярости.
+rmc-xeno-rage-examine = { CAPITALIZE(SUBJECT($xeno)) } { $xeno } имеет { $amount }/{ $max } стаков ярости.
 # Eviscerate
 rmc-xeno-eviscerate-fail = Мы не можем использовать "Потрошение" с 0 стаков ярости!
 rmc-xeno-eviscerate-windup-self = Мы готовимся к мощному удару!

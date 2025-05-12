@@ -36,12 +36,9 @@
     sprite: _Stories/Objects/Weapons/Guns/SmartGuns/m56b.rsi # Stories-Parity
     layers:
     - state: base
-      sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml66a.rsi
-    - state: camo
-      sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml66a.rsi
-      map: [ "enum.ItemCamouflageLayers.Layer" ]
+      sprite: _Stories/Objects/Weapons/Guns/SmartGuns/m56b.rsi
     - state: mag-0
-      sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml66a.rsi
+      sprite: _Stories/Objects/Weapons/Guns/SmartGuns/m56b.rsi
       map: [ "enum.GunVisualLayers.Mag" ]
     - sprite: _RMC14/Objects/Weapons/Guns/Attachments/barrel.rsi
       state: m56_barrel
@@ -51,13 +48,6 @@
     slots:
     - suitStorage
     - Back
-  - type: ItemCamouflage
-    colors:
-      Jungle: "#ccd08d"
-      Desert: "#ffd2a6"
-      Snow: "#ddcbc9"
-      Classic: "#c7e7d9"
-      Urban: "#acb8c7"
   - type: MeleeWeapon
     damage:
       types:
@@ -178,15 +168,18 @@
   description: The actual firearm in the 4-piece ML79A Smartgun System. If you have this, you're about to bring some serious pain to anyone in your way. You may toggle firing restrictions by using a special action.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml79a.rsi
+    sprite: _Stories/Objects/Weapons/Guns/SmartGuns/m56b.rsi
     layers:
     - state: base
-      sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml79a.rsi
+      sprite: _Stories/Objects/Weapons/Guns/SmartGuns/m56b.rsi
     - state: mag-0
-      sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml79a.rsi
+      sprite: _Stories/Objects/Weapons/Guns/SmartGuns/m56b.rsi
       map: [ "enum.GunVisualLayers.Mag" ]
+    - sprite: _RMC14/Objects/Weapons/Guns/Attachments/barrel.rsi
+      state: m56_barrel
+      offset: 0.625, 0
   - type: Clothing
-    sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml79a.rsi
+    sprite: _Stories/Objects/Weapons/Guns/SmartGuns/m56b.rsi
   - type: RMCSelectiveFire
     recoilWielded: 3
     scatterWielded: 10
