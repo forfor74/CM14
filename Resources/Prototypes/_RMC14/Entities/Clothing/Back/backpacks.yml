@@ -55,7 +55,7 @@
     - whitelist:
         tags:
         - CMFirstAidKit
-        - CMBeaker
+        - GlassBeaker
         - PressurizedCanister
       skills:
         all:
