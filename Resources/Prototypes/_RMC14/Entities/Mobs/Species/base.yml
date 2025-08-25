@@ -346,9 +346,16 @@
     whitelist:
       components:
       - OverwatchConsole
+      - RotaryPhone
+      - ItemCabinet
+      - Intercom
+      - SignalTimer
+      - KeycardDevice
+      - CMAutomatedVendor
+      - FaxMachine
       tags:
       - RMCDropshipEnginePoint
-    range: 2
+    range: 1.8
   - type: RMCArmorModifier
     meleeArmorModifier: 5
   - type: RMCObstacleSlamCauserImmune

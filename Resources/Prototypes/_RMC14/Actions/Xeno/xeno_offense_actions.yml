@@ -128,8 +128,6 @@
     event: !type:XenoTailStabEvent
   - type: XenoTailStabAction
   - type: RMCDazeableAction
-  - type: ActionInRangeUnobstructed
-    range: 2.5
 
 - type: entity
   id: ActionXenoTailSlam
@@ -458,6 +456,7 @@
     useDelay: 8
   - type: TargetAction
     range: 15
+    checkCanAccess: false
   - type: WorldTargetAction
     event: !type:XenoSprayAcidActionEvent
   - type: ActionBlockIfResting
@@ -584,6 +583,7 @@
     useDelay: 12
   - type: TargetAction
     range: 15
+    checkCanAccess: false
   - type: EntityTargetAction
   - type: WorldTargetAction
     event: !type:XenoBoneChipsActionEvent
