@@ -50,8 +50,6 @@
     - type: RMCPointing
     - type: JobPrefix
       prefix: cm-job-prefix-quartermaster
-    - type: CMVendorUser # Stories-Partners
-      id: CMQuartermaster
     - type: ViewIntelObjectives
     - type: CommandAccent
     - type: TacticalMapIcon

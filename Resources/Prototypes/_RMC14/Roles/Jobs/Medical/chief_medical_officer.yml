@@ -49,7 +49,6 @@
     - type: RMCPointing
     - type: JobPrefix
       prefix: cm-job-prefix-cmo
-    - type: CMVendorUser # Stories-Partners
     - type: ViewIntelObjectives
     - type: CommandAccent
     - type: TacticalMapIcon

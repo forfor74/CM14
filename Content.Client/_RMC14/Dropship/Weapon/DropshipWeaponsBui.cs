@@ -237,6 +237,9 @@ public sealed class DropshipWeaponsBui : RMCPopOutBui<DropshipWeaponsWindow>
         switch (compScreen.State)
         {
             case Main:
+                screen.Viewport.Visible = false;
+                screen.Viewport.RemoveAllChildren();
+                screen.Viewport.Eye = null;
                 screen.BottomRow.SetData(two: tacMap, three: cams);
                 screen.TopRow.SetData(equip, four: target);
                 break;
