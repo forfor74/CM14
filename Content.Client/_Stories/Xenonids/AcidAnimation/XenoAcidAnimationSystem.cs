@@ -44,10 +44,12 @@ public sealed class XenoAcidAnimationSystem : SharedXenoAcidAnimationSystem
         _actions.ActionsUpdated -= RefreshLocalPrediction;
     }
 
-    private void OnActionChanged(EntityUid _)
+    public override void FrameUpdate(float frameTime)
     {
         RefreshLocalPrediction();
     }
+
+    private void OnActionChanged(EntityUid _) => RefreshLocalPrediction();
 
     private void OnComponentStartup(Entity<XenoAcidAnimationComponent> ent, ref ComponentStartup args)
     {
@@ -147,18 +149,21 @@ public sealed class XenoAcidAnimationSystem : SharedXenoAcidAnimationSystem
         actionUid = default;
 
         var selected = _ui.GetUIController<ActionUIController>().SelectingTargetFor;
-        if (selected is not { } selectedAction)
-            return false;
+        return selected is { } action && TryGetAcidAction(xeno, action, out actionUid);
+    }
 
-        if (_actions.GetAction(selectedAction) is not { } action ||
+    private bool TryGetAcidAction(Entity<XenoAcidAnimationComponent> xeno, EntityUid actionUid, out EntityUid validAction)
+    {
+        validAction = default;
+
+        if (_actions.GetAction(actionUid) is not { } action ||
             action.Comp.AttachedEntity != xeno.Owner ||
-            !action.Comp.Toggled ||
             !IsAcidAnimationAction(action.Owner, xeno.Comp))
         {
             return false;
         }
 
-        actionUid = action.Owner;
+        validAction = action.Owner;
         return true;
     }
 
@@ -168,9 +173,6 @@ public sealed class XenoAcidAnimationSystem : SharedXenoAcidAnimationSystem
             return;
 
         var shouldShow = ShouldShow(ent);
-        if (_visible.Contains(ent.Owner) == shouldShow)
-            return;
-
         SetSpitVisible((ent.Owner, sprite), shouldShow);
     }
 
@@ -206,6 +208,7 @@ public sealed class XenoAcidAnimationSystem : SharedXenoAcidAnimationSystem
             _visible.Remove(ent.Owner);
 
         _sprite.LayerSetAutoAnimated((ent.Owner, ent.Comp), layer, visible);
-        ent.Comp.LayerSetVisible(layer, visible);
+        _sprite.LayerSetColor((ent.Owner, ent.Comp), layer, Color.White.WithAlpha(visible ? 1f : 0f));
+        ent.Comp.LayerSetVisible(layer, true);
     }
 }
