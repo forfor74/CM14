@@ -126,7 +126,8 @@
   components:
   - type: VehicleDriverSeat
     skills:
-      all: {}
+      all:
+        RMCSkillVehicles: 2
 
 - type: entity
   parent: RMCSeatArmoredBase
@@ -135,7 +136,8 @@
   components:
   - type: VehicleWeaponsSeat
     skills:
-      all: {}
+      all:
+        RMCSkillVehicles: 2
     isPrimaryOperatorSeat: true
     allowUiSelection: true
     allowHotbarSelection: true
