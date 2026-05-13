@@ -11,14 +11,37 @@
       "name": "icon"
     },
     {
+      "name": "launcher"
+    },
+    {
+      "name": "half"
+    },
+    {
+      "name": "full"
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "launcher-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "launcher-inhand-right",
+      "directions": 4
+    },
+    {
       "name": "equipped-BACKPACK",
       "directions": 4
     },
     {
-      "name": "open"
-    },
-    {
-      "name": "closed"
+      "name": "equipped-BACKPACK-g",
+      "directions": 4
     }
   ]
 }
